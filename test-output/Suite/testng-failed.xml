@@ -2,12 +2,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="pass" value="admin123"/>
+    <parameter name="Title" value="OrangeHRM"/>
+    <parameter name="user" value="Admin"/>
     <classes>
-      <class name="org.test.Attributes">
+      <class name="org.test.Parameter">
         <methods>
-          <include name="Searchpage"/>
+          <include name="browserSetup"/>
+          <include name="TitleVerification"/>
+          <include name="tearDown"/>
+          <include name="LoginVerification"/>
         </methods>
-      </class> <!-- org.test.Attributes -->
+      </class> <!-- org.test.Parameter -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
