@@ -1,99 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-16T17:09:09 IST" name="Default suite" finished-at="2025-12-16T17:09:11 IST" duration-ms="2231">
+  <suite started-at="2025-12-17T16:35:07 IST" name="Default suite" finished-at="2025-12-17T16:35:31 IST" duration-ms="24153">
     <groups>
     </groups>
-    <test started-at="2025-12-16T17:09:09 IST" name="Default test" finished-at="2025-12-16T17:09:11 IST" duration-ms="2231">
-      <class name="org.test.Attributes">
-        <test-method signature="login()[pri:-2, instance:org.test.Attributes@4d5d943d]" started-at="2025-12-16T17:09:09 IST" name="login" description="login functionality" finished-at="2025-12-16T17:09:09 IST" duration-ms="28" status="PASS">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-at org.test.Attributes.login(Attributes.java:10)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+    <test started-at="2025-12-17T16:35:07 IST" name="Default test" finished-at="2025-12-17T16:35:31 IST" duration-ms="24153">
+      <class name="org.test.AssetDemo">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:07 IST" name="browserSetup" finished-at="2025-12-17T16:35:12 IST" duration-ms="4722" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="homepage()[pri:-1, instance:org.test.Attributes@4d5d943d]" started-at="2025-12-16T17:09:09 IST" name="homepage" description="homepage functionality" finished-at="2025-12-16T17:09:09 IST" depends-on-methods="org.test.Attributes.login" duration-ms="4" status="PASS">
+        </test-method> <!-- browserSetup -->
+        <test-method signature="CreateNewAccountIsEnabled()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:12 IST" name="CreateNewAccountIsEnabled" finished-at="2025-12-17T16:35:12 IST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homepage -->
-        <test-method signature="productpage()[pri:0, instance:org.test.Attributes@4d5d943d]" started-at="2025-12-16T17:09:09 IST" name="productpage" description="productpage functionality" finished-at="2025-12-16T17:09:09 IST" duration-ms="18" status="PASS">
+        </test-method> <!-- CreateNewAccountIsEnabled -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:12 IST" name="teardown" finished-at="2025-12-17T16:35:12 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- productpage -->
-        <test-method signature="Searchpage()[pri:1, instance:org.test.Attributes@4d5d943d]" started-at="2025-12-16T17:09:09 IST" name="Searchpage" description="Searchpage functionality" finished-at="2025-12-16T17:09:11 IST" duration-ms="2022" status="FAIL">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method org.test.Attributes.Searchpage() didn't finish within the time-out 2000]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.test.Attributes.Searchpage() didn't finish within the time-out 2000
-at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:400)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:310)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:696)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:12 IST" name="browserSetup" finished-at="2025-12-17T16:35:16 IST" duration-ms="3623" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Searchpage -->
-      </class> <!-- org.test.Attributes -->
+        </test-method> <!-- browserSetup -->
+        <test-method signature="EmailTextBoxIsDisplayed()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:16 IST" name="EmailTextBoxIsDisplayed" finished-at="2025-12-17T16:35:16 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailTextBoxIsDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:16 IST" name="teardown" finished-at="2025-12-17T16:35:16 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:16 IST" name="browserSetup" finished-at="2025-12-17T16:35:20 IST" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="FBLoginPageTitleVerification()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:20 IST" name="FBLoginPageTitleVerification" finished-at="2025-12-17T16:35:20 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FBLoginPageTitleVerification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:20 IST" name="teardown" finished-at="2025-12-17T16:35:20 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:20 IST" name="browserSetup" finished-at="2025-12-17T16:35:24 IST" duration-ms="3580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="ForgottenPasswordIsEnabled()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:24 IST" name="ForgottenPasswordIsEnabled" finished-at="2025-12-17T16:35:24 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgottenPasswordIsEnabled -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:24 IST" name="teardown" finished-at="2025-12-17T16:35:24 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:24 IST" name="browserSetup" finished-at="2025-12-17T16:35:26 IST" duration-ms="2462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="PasswordTextBoxIsDisplayed()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:26 IST" name="PasswordTextBoxIsDisplayed" finished-at="2025-12-17T16:35:27 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordTextBoxIsDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:27 IST" name="teardown" finished-at="2025-12-17T16:35:27 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:27 IST" name="browserSetup" finished-at="2025-12-17T16:35:31 IST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="loginButtonIsEnabled()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:31 IST" name="loginButtonIsEnabled" finished-at="2025-12-17T16:35:31 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButtonIsEnabled -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.test.AssetDemo@765d7657]" started-at="2025-12-17T16:35:31 IST" name="teardown" finished-at="2025-12-17T16:35:31 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.test.AssetDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
