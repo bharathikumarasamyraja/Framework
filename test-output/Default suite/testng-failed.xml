@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.test.Parameter">
+      <class name="org.test.AmazonTest">
         <methods>
           <include name="browserSetup"/>
-          <include name="TitleVerification"/>
+          <include name="Amazontitle"/>
           <include name="tearDown"/>
-          <include name="LoginVerification"/>
         </methods>
-      </class> <!-- org.test.Parameter -->
+      </class> <!-- org.test.AmazonTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
