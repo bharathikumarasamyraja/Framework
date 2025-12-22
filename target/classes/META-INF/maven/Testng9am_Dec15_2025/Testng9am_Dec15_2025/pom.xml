@@ -17,5 +17,20 @@
     <artifactId>selenium-java</artifactId>
     <version>4.27.0</version>
 </dependency>
-</dependencies>
+<dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.5</version>
+    </dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.0</version>
+</dependency>
+  	<dependency>
+  		<groupId>Datadriven9am_dec4_2025</groupId>
+  		<artifactId>Datadriven9am_dec4_2025</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
